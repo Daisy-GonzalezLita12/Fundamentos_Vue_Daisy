@@ -5,63 +5,71 @@
 
 <template>
   <!-- Estructura html -->
-   <!-- Título de la página -->
-<h1>ECLIPSES</h1> 
-<!-- Botón de "ver eclipses" -->
- <button class="btn">Ver eclipses</button>
- <br>
- <!-- Imagen del eclipse solar -->
- <img src="https://starwalk.space/gallery/images/solar-eclipses/1140x641.jpg" alt="Eclipse solar " width="500" height="300">
- <!-- Imagen del eclipse solar -->
-  <p>       </p>
- <img src="https://spaceplace.nasa.gov/eclipses/sp/solar.sp.png" alt="Eclipse solar " width="500" height="300">
-  <br>
-  <!-- Información acerca de un eclipse -->
-  <p>Un eclipse se produce cuando un planeta o una luna se interpone en el camino de la luz del sol. Aquí en la Tierra, podemos experimentar dos clases de eclipses: eclipses solares y eclipses lunares.</p>
-  <p>Un  se produce cuando la luna se interpone en el camino de la luz del sol y proyecta su sombra en la Tierra. Eso significa que durante el día, la luna se mueve por delante del sol y se pone oscuro. ¿No es extraño que se ponga todo oscuro en pleno día?
+   <div  class="container">
 
-Este eclipse total se produce aproximadamente cada año y medio en algún lugar de la Tierra. Un eclipse parcial, cuando la luna no recubre por completo al sol, se produce al menos dos veces por año, en algún lugar de la Tierra.</p>
-<p>Durante un eclipse lunar, la Tierra impide que la luz del sol llegue hasta la luna. Eso quiere decir que a la noche, la luna llena desaparece por completo, a medida que la sombra de la Tierra la cubre.
-La luna también puede parecer de un color rojizo, debido a que la atmósfera terrestre absorbe los demás colores mientras se dobla algo de luz solar hacia la luna. Los atardeceres obtienen su color rojo y anaranjado debido a la forma en la que la luz del sol se dobla cuando atraviesa la atmósfera y absorbe otros colores.
-Durante un eclipse total de luna, el brillo de la luna proviene de todos los amaneceres y puestas de sol que se producen en la Tierra.</p>
-<!-- Imagen de un eclipse -->
-<img src="https://spaceplace.nasa.gov/eclipses/sp/lunar-sp.sp.png" alt="eclipse">
-<!-- Subtítulo con encabezado número 2 -->
-<h2>¿Por qué no tenemos un eclipse lunar todos los meses?</h2>
-<!-- Información acerca de un eclipse -->
-<p>Seguramente te estarás preguntando por qué es que no tenemos un eclipse lunar todos los meses ya que la luna orbita la Tierra. Es cierto que la luna da vueltas alrededor de la Tierra todos los meses, pero no siempre se interpone en la sombra de la Tierra. La trayectoria lunar alrededor de la Tierra está inclinada en comparación con la órbita de la Tierra alrededor del sol. La luna puede estar detrás de la Tierra e incluso así recibir luz solar.</p>
-<!-- Imagen de un eclipse -->
-<img src="https://spaceplace.nasa.gov/eclipses/sp/tilt-sp.sp.png" alt="">
+    <h1 style="color: #31827c;" class="text-center">MASCOTAS</h1>
+    <!--Inicio del primer row  -->
+   <div class="row">
+       <div class="col-md-6">
+        <div class="card">
+          <div style="background-color: #95c68f;" class="card-header">
+            <h6><center>Gatos</center></h6>
+          </div>
+          <div style="background-color: #f7e9aa;" class="card-body text-center">
+            <img src="https://i.pinimg.com/474x/29/41/b0/2941b0a266c0fc1cb388429315b9ccf9.jpg" alt="Gato" width="150px" height="200px"> 
+            <p class="card-text">El gato doméstico (Felis silvestris catus), llamado comúnmente gato, y de forma coloquial minino, michino, y algunos nombres más, es un mamífero carnívoro de la familia Felidae.</p>
+          </div>
+        </div>
+       </div>
+       <div class="col-md-6">
+        <div class="card">
+          <div style="background-color: #95c68f;" class="card-header">
+            <h6><center>Perros</center></h6>
+          </div>
+          <div style="background-color: #f7e9aa;" class="card-body text-center">
+            <img src="https://i.pinimg.com/736x/96/75/74/967574cf74089714b4b13d8fb2513d8c.jpg" alt="perro" width="150px" height="200px">
+            <p class="card-text">El perro (Canis familiaris o Canis lupus familiaris). Es un mamífero carnívoro de la familia de los cánidos, que constituye una especie del género Canis.</p>
+          </div>
+        </div>
+       </div>
+   </div>
+   <!-- Cierre del  primer row-->
 
+   <!-- Inicio del segundo row -->
+    <div class="row mt-4" >
+      <div class="col-md-4">
+         <div class="card" style="width: 18rem;">
+              <img src="https://static.grupojoly.com/clip/17b4e808-da4b-4089-912a-38897c71e4f2_source-aspect-ratio_1600w_0.jpg" class="card-img-top" alt="Gato"  width="350px" height="180px" >
+          <div class="card-body text-center">
+              <p class="card-text">Miden alrededor de 46 cm de longitud de la cabeza al cuerpo y entre 23-25 cm de altura</p>
+              <button class=" btn btn-warning">Más información</button>
+           </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+         <div class="card" style="width: 18rem;">
+              <img src="https://buzos.com.mx/storage/public/fotogaleria/noticias/2024-08-08/NncgcyFt0C.webp" class="card-img-top" alt="Gatos"  width="350px" height="180px">
+          <div class="card-body text-center">
+              <p class="card-text">En 2017, la población mundial estimada de gatos estaba en seiscientos millones de felinos.</p>
+              <button class=" btn btn-warning">Más información</button>
+           </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+         <div class="card" style="width: 18rem;">
+              <img src="https://www.animalshealth.es/fileuploads/news/perro-propietario-europa-aumento-tenencia-217031581651.jpg" class="card-img-top" alt="Perro" width="350px" height="180px">
+          <div class="card-body text-center">
+              <p class="card-text">El número de perros como mascota en Europa se ha incrementado en más de 11 de millones</p>
+              <button class=" btn btn-warning">Más información</button>
+           </div>
+        </div>
+      </div>
+    </div>
+    <!-- Cieere del segundo wow -->
+  </div>
 </template>
 
 <style scoped>
 /* estilos css */
-/* Define estilos para el título */
-h1 {
-  /* Define el tipo de letra */
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* Define el tamaño de letra */
-font-size: 45px;
-/* Define el color de letra */
-color:blue;
-}
-/* Define estilos para la clase botón */
-.btn{
-  /* Redondea el botón */
-  border-radius: 15px;
-  /* Color de fondo */
-  background-color:cadetblue;
-  /* Define el color de fondo de la letra*/
-  color: black; 
-  /* Defien el tipo de letra */
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-/* Defiene estilos para la etiqueta párrafo */
-p{
-  /* Define el tipo de letra */
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   /* Justifica el texto */
-  text-align: justify;
-}
+
 </style>
