@@ -41,7 +41,7 @@
          <div class="card" style="width: 18rem;">
               <img src="https://static.grupojoly.com/clip/17b4e808-da4b-4089-912a-38897c71e4f2_source-aspect-ratio_1600w_0.jpg" class="card-img-top" alt="Gato"  width="350px" height="180px" >
           <div class="card-body text-center">
-              <p class="card-text">Miden alrededor de 46 cm de longitud de la cabeza al cuerpo y entre 23-25 cm de altura</p>
+              <p class="card-text">Miden alrededor de 46 cm de longitud de la cabeza al cuerpo y entre 23-25 cm de altura.</p>
               <button class=" btn btn-warning">Más información</button>
            </div>
         </div>
@@ -59,7 +59,7 @@
          <div class="card" style="width: 18rem;">
               <img src="https://www.animalshealth.es/fileuploads/news/perro-propietario-europa-aumento-tenencia-217031581651.jpg" class="card-img-top" alt="Perro" width="350px" height="180px">
           <div class="card-body text-center">
-              <p class="card-text">El número de perros como mascota en Europa se ha incrementado en más de 11 de millones</p>
+              <p class="card-text">El número de perros como mascota en Europa se ha incrementado en más de 11 de millones.</p>
               <button class=" btn btn-warning">Más información</button>
            </div>
         </div>
